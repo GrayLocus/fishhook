@@ -37,14 +37,27 @@
 extern "C" {
 #endif //__cplusplus
 
+
+
+/** 1.Fishhook 原理，涉及 Mach-O 文件，PIC（Position Independent Code)，ASLR（Address
+ *  https://juejin.cn/post/6844903992904908814
+ *  https://www.jianshu.com/p/4d86de908721
+ *  Hook 本质: 对所有引用的程序外的函数，编译器会在 生成的 Mach-O 文件中的_DATA Segment 中创建符号表，将对外引用的函数的地址保存下来，fishhook 就是对建立的函数指针进行替换，指向自己希望的 C 函数地址
+ *  Fishhook 要求：只能对外部C 函数进行 hook，不能对内部函数
+ *
+ *  Hook 过程：如何根据要被 hook 的函数名找到对应的符号？
+ *  Lazy Symbol Table vs Non-Lazy Symbol Table
+ *
+ */
+ 
 /*
  * A structure representing a particular intended rebinding from a symbol
  * name to its replacement
  */
 struct rebinding {
-  const char *name;
-  void *replacement;
-  void **replaced;
+  const char *name;//需要HOOK的函数名称，C字符串
+  void *replacement;//新函数的地址
+  void **replaced;//原始函数地址的指针！
 };
 
 /*

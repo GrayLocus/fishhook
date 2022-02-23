@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2861A88A27BCC9C7003D4B0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2861A88927BCC9C7003D4B0C /* AppDelegate.m */; };
+		2861A88D27BCC9C7003D4B0C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2861A88C27BCC9C7003D4B0C /* SceneDelegate.m */; };
+		2861A89027BCC9C7003D4B0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2861A88F27BCC9C7003D4B0C /* ViewController.m */; };
+		2861A89327BCC9C7003D4B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2861A89127BCC9C7003D4B0C /* Main.storyboard */; };
+		2861A89527BCC9C9003D4B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2861A89427BCC9C9003D4B0C /* Assets.xcassets */; };
+		2861A89827BCC9C9003D4B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2861A89627BCC9C9003D4B0C /* LaunchScreen.storyboard */; };
+		2861A89B27BCC9C9003D4B0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2861A89A27BCC9C9003D4B0C /* main.m */; };
+		2861A8A927BCC9EC003D4B0C /* CODE_OF_CONDUCT.md in Resources */ = {isa = PBXBuildFile; fileRef = 2861A8A227BCC9EC003D4B0C /* CODE_OF_CONDUCT.md */; };
+		2861A8AA27BCC9EC003D4B0C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2861A8A327BCC9EC003D4B0C /* LICENSE */; };
+		2861A8AB27BCC9EC003D4B0C /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 2861A8A427BCC9EC003D4B0C /* fishhook.c */; };
+		2861A8AC27BCC9EC003D4B0C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2861A8A527BCC9EC003D4B0C /* README.md */; };
+		2861A8AD27BCC9EC003D4B0C /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = 2861A8A627BCC9EC003D4B0C /* CONTRIBUTING.md */; };
+		2861A8AE27BCC9EC003D4B0C /* fishhook.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2861A8A827BCC9EC003D4B0C /* fishhook.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2861A88527BCC9C7003D4B0C /* Fish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2861A88827BCC9C7003D4B0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2861A88927BCC9C7003D4B0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2861A88B27BCC9C7003D4B0C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2861A88C27BCC9C7003D4B0C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2861A88E27BCC9C7003D4B0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2861A88F27BCC9C7003D4B0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2861A89227BCC9C7003D4B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2861A89427BCC9C9003D4B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2861A89727BCC9C9003D4B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2861A89927BCC9C9003D4B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2861A89A27BCC9C9003D4B0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2861A8A227BCC9EC003D4B0C /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
+		2861A8A327BCC9EC003D4B0C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2861A8A427BCC9EC003D4B0C /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		2861A8A527BCC9EC003D4B0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2861A8A627BCC9EC003D4B0C /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		2861A8A727BCC9EC003D4B0C /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		2861A8A827BCC9EC003D4B0C /* fishhook.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fishhook.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2861A88227BCC9C7003D4B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2861A87C27BCC9C7003D4B0C = {
+			isa = PBXGroup;
+			children = (
+				2861A8A127BCC9EC003D4B0C /* fish_hook */,
+				2861A88727BCC9C7003D4B0C /* Fish */,
+				2861A88627BCC9C7003D4B0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2861A88627BCC9C7003D4B0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2861A88527BCC9C7003D4B0C /* Fish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2861A88727BCC9C7003D4B0C /* Fish */ = {
+			isa = PBXGroup;
+			children = (
+				2861A88827BCC9C7003D4B0C /* AppDelegate.h */,
+				2861A88927BCC9C7003D4B0C /* AppDelegate.m */,
+				2861A88B27BCC9C7003D4B0C /* SceneDelegate.h */,
+				2861A88C27BCC9C7003D4B0C /* SceneDelegate.m */,
+				2861A88E27BCC9C7003D4B0C /* ViewController.h */,
+				2861A88F27BCC9C7003D4B0C /* ViewController.m */,
+				2861A89127BCC9C7003D4B0C /* Main.storyboard */,
+				2861A89427BCC9C9003D4B0C /* Assets.xcassets */,
+				2861A89627BCC9C9003D4B0C /* LaunchScreen.storyboard */,
+				2861A89927BCC9C9003D4B0C /* Info.plist */,
+				2861A89A27BCC9C9003D4B0C /* main.m */,
+			);
+			path = Fish;
+			sourceTree = "<group>";
+		};
+		2861A8A127BCC9EC003D4B0C /* fish_hook */ = {
+			isa = PBXGroup;
+			children = (
+				2861A8A227BCC9EC003D4B0C /* CODE_OF_CONDUCT.md */,
+				2861A8A327BCC9EC003D4B0C /* LICENSE */,
+				2861A8A427BCC9EC003D4B0C /* fishhook.c */,
+				2861A8A527BCC9EC003D4B0C /* README.md */,
+				2861A8A627BCC9EC003D4B0C /* CONTRIBUTING.md */,
+				2861A8A727BCC9EC003D4B0C /* fishhook.h */,
+				2861A8A827BCC9EC003D4B0C /* fishhook.podspec */,
+			);
+			name = fish_hook;
+			path = ../fish_hook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2861A88427BCC9C7003D4B0C /* Fish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2861A89E27BCC9C9003D4B0C /* Build configuration list for PBXNativeTarget "Fish" */;
+			buildPhases = (
+				2861A88127BCC9C7003D4B0C /* Sources */,
+				2861A88227BCC9C7003D4B0C /* Frameworks */,
+				2861A88327BCC9C7003D4B0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fish;
+			productName = Fish;
+			productReference = 2861A88527BCC9C7003D4B0C /* Fish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2861A87D27BCC9C7003D4B0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					2861A88427BCC9C7003D4B0C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 2861A88027BCC9C7003D4B0C /* Build configuration list for PBXProject "Fish" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2861A87C27BCC9C7003D4B0C;
+			productRefGroup = 2861A88627BCC9C7003D4B0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2861A88427BCC9C7003D4B0C /* Fish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2861A88327BCC9C7003D4B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2861A8AC27BCC9EC003D4B0C /* README.md in Resources */,
+				2861A89827BCC9C9003D4B0C /* LaunchScreen.storyboard in Resources */,
+				2861A89527BCC9C9003D4B0C /* Assets.xcassets in Resources */,
+				2861A89327BCC9C7003D4B0C /* Main.storyboard in Resources */,
+				2861A8AD27BCC9EC003D4B0C /* CONTRIBUTING.md in Resources */,
+				2861A8A927BCC9EC003D4B0C /* CODE_OF_CONDUCT.md in Resources */,
+				2861A8AA27BCC9EC003D4B0C /* LICENSE in Resources */,
+				2861A8AE27BCC9EC003D4B0C /* fishhook.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2861A88127BCC9C7003D4B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2861A89027BCC9C7003D4B0C /* ViewController.m in Sources */,
+				2861A8AB27BCC9EC003D4B0C /* fishhook.c in Sources */,
+				2861A88A27BCC9C7003D4B0C /* AppDelegate.m in Sources */,
+				2861A89B27BCC9C9003D4B0C /* main.m in Sources */,
+				2861A88D27BCC9C7003D4B0C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2861A89127BCC9C7003D4B0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2861A89227BCC9C7003D4B0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2861A89627BCC9C9003D4B0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2861A89727BCC9C9003D4B0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2861A89C27BCC9C9003D4B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2861A89D27BCC9C9003D4B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2861A89F27BCC9C9003D4B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DXWA7324FZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fish/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangpu.fishhook.Fish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2861A8A027BCC9C9003D4B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DXWA7324FZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fish/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangpu.fishhook.Fish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2861A88027BCC9C7003D4B0C /* Build configuration list for PBXProject "Fish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2861A89C27BCC9C9003D4B0C /* Debug */,
+				2861A89D27BCC9C9003D4B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2861A89E27BCC9C9003D4B0C /* Build configuration list for PBXNativeTarget "Fish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2861A89F27BCC9C9003D4B0C /* Debug */,
+				2861A8A027BCC9C9003D4B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2861A87D27BCC9C7003D4B0C /* Project object */;
+}
